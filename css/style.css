@@ -1,0 +1,81 @@
+body {
+	/* This is a comment*/
+	background-color: fuchsia;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+	max-width: 600px;
+	background: rgba(255,255,255,0.8);
+	margin: 0 auto;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 5px rgba(255,255,255,0.8);
+}
+
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 50px;
+	margin: 0;
+	color: black;
+	text-shadow: 5px 5px 10px black;
+}
+
+h2 {text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight: normal;
+}
+
+img {
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	width: 200px;	
+	border: 8px solid black;
+}
+
+
+h3 {
+	text-decoration: underline;
+	text-align: center;
+	margin-bottom: 0; /* makes the slide toggle smoother cos the h3 margins don't overlap*/
+}
+
+h3:hover {
+	color: #454545;
+	cursor: pointer;
+}
+
+p{
+	text-align: justify;
+	text-align: center;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.5;
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+}
+
+a {
+	color: #33dd44;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #99ffaa;
+	text-decoration: underline;
+}
+
